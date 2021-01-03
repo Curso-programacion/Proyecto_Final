@@ -1,24 +1,24 @@
 Proyecto final
 ================
 
-# 1 Ojetivo
+# 1 Objetivo
 
 El objetivo del trabajo final es el realizar una presentación grupal,
-donde usando generen el mejor modelo posible para explicar los patrones
-de Riqueza de especies de aves encontrados en el sur de Chile, en las
-regiones de Araucanía, Los Lagos y Los Ríos (ver figura
-<a href="#fig:Diversidad">1.1</a>). Los datos del número de especies en
-cada uno de los sitos puede ser encontrado en el archivo
-`Diversidad.shp`. Para esto y como variables disponibles pueden usar la
-base de datos espaciales `Stack.rds`, los cuales pueden ser visualizados
-en la figura <a href="#fig:Variables">1.2</a>). Las variables en este
-stack son el indice de modificación humana (Kennedy et al. 2019) y por
-otro lado la variables bioclimáticas temperatura media anual, el rango
-térmico diario, la precipitación anual y la estacionalidad de la
-precipitación descargadas desde worlclim usando el paquete raster en R
-(Hijmans 2020). Si bién esas son las variables entregadas, no es
-necesario que se restrinjan a solo utilizar estas y pueden agregar otras
-que crean
+donde usando las bases de datos entregadas, generen el mejor modelo
+posible para explicar los patrones de Riqueza de especies de aves
+encontrados en el sur de Chile, en las regiones de Araucanía, Los Lagos
+y Los Ríos (ver figura <a href="#fig:Diversidad">1.1</a>). Los datos del
+número de especies en cada uno de los sitos puede ser encontrado en el
+archivo `Diversidad.shp`. Para esto y como variables disponibles pueden
+usar la base de datos espaciales `Stack.rds`, los cuales pueden ser
+visualizados en la figura <a href="#fig:Variables">1.2</a>. Las
+variables en este stack son el indice de modificación humana (Kennedy et
+al. 2019) y por otro lado la variables bioclimáticas temperatura media
+anual, el rango térmico diario, la precipitación anual y la
+estacionalidad de la precipitación descargadas desde worlclim usando el
+paquete raster en R (Hijmans 2020). Si bien esas son las variables
+entregadas, no es necesario que se restrinjan a solo utilizar estas y
+pueden agregar otras que crean
 importantes.
 
 <div class="figure">
@@ -61,7 +61,48 @@ precipitación
     [interpolación](https://youtu.be/AjWvI9P6jos)
   - Intenten modelos que no solo incluyan relaciones lineales
 
-## 2.2 Material extra disponible
+# 3 Grupos de trabajo
+
+En la tabla <a href="#tab:Grupos">3.1</a>, se encuentran los grupos de
+trabajo y los horarios de
+presentaciones
+
+| Nombre                                | email                                    | Grupo | Presentacion        |
+| :------------------------------------ | :--------------------------------------- | ----: | :------------------ |
+| Palma Bugueño, Bastián Lucas          | <bastian.palma02@alumnos.uach.cl>        |     1 | 2021-01-18 10:00:00 |
+| Pereda Quilapán, Marcelo Adolfo       | <marcelo.pereda@alumnos.uach.cl>         |     1 | 2021-01-18 10:00:00 |
+| Zenteno Montuschi, Fernanda Javiera   | <fernanda.zenteno@alumnos.uach.cl>       |     1 | 2021-01-18 10:00:00 |
+| Arzola Cisterna, Scarlett María       | <scarlett.arzola@alumnos.uach.cl>        |     2 | 2021-01-18 10:20:00 |
+| Luco Molina, Carlos Alberto           | <carlos.luco@alumnos.uach.cl>            |     2 | 2021-01-18 10:20:00 |
+| Segovia Oyarzo, Luis José             | <luis.segovia@alumnos.uach.cl>           |     2 | 2021-01-18 10:20:00 |
+| Aguilar Muñoz, Gabriela Fernanda      | <gabriela.aguilar02@alumnos.uach.cl>     |     3 | 2021-01-18 10:40:00 |
+| Miranda López, Camilo Andrés          | <camilo.miranda@alumnos.uach.cl>         |     3 | 2021-01-18 10:40:00 |
+| Vergara Estay, Tomás Alberto          | <tomas.vergara@alumnos.uach.cl>          |     3 | 2021-01-18 10:40:00 |
+| Cocio González, Fernanda Jesús        | <fernanda.cocio@alumnos.uach.cl>         |     4 | 2021-01-18 11:00:00 |
+| Pizarro Barrera, Ricardo Antonio      | <ricardo.pizarro@alumnos.uach.cl>        |     4 | 2021-01-18 11:00:00 |
+| Riveros Ávila, Fernando Alberto       | <fernando.riveros@alumnos.uach.cl>       |     4 | 2021-01-18 11:00:00 |
+| Calderón Fati, José Julio Haumaru     | <jose.calderon@alumnos.uach.cl>          |     5 | 2021-01-18 11:20:00 |
+| Soto Rupayan, Benjamin Ignacio        | <benjamin.soto@alumnos.uach.cl>          |     5 | 2021-01-18 11:20:00 |
+| Valenzuela Ampuero, Sebastián Eduardo | <sebastian.valenzuela04@alumnos.uach.cl> |     5 | 2021-01-18 11:20:00 |
+| Bañares Mansilla, Angie Javiera       | <angie.banares@alumnos.uach.cl>          |     6 | 2021-01-18 11:40:00 |
+| Ramírez Águila, Kamila Andrea         | <kamila.ramirez@alumnos.uach.cl>         |     6 | 2021-01-18 11:40:00 |
+| Rodríguez Oyarzo, María Teresa        | <maria.rodriguez@alumnos.uach.cl>        |     6 | 2021-01-18 11:40:00 |
+| Alvarado Subiabre, Guillermo Ignacio  | <guillermo.alvarado@alumnos.uach.cl>     |     7 | 2021-01-18 12:00:00 |
+| Lara Riquelme, Bárbara Escarlen       | <barbara.lara@alumnos.uach.cl>           |     7 | 2021-01-18 12:00:00 |
+| Luco Molina, Macarena Alejandra       | <macarena.luco@alumnos.uach.cl>          |     7 | 2021-01-18 12:00:00 |
+| Gutierrez Aguila, Angela Mariluz      | <angela.gutierrez@alumnos.uach.cl>       |     8 | 2021-01-18 12:20:00 |
+| Neira Becerra, Valentina Constanza    | <valentina.neira@alumnos.uach.cl>        |     8 | 2021-01-18 12:20:00 |
+| Ravanal Padilla, Rodrigo Andres       | <rodrigo.ravanal@alumnos.uach.cl>        |     8 | 2021-01-18 12:20:00 |
+| González Sáez, Florencia Ignacia      | <florencia.gonzalez01@alumnos.uach.cl>   |     9 | 2021-01-18 12:40:00 |
+| Mendez Rivas, Christofer Antonio      | <christofer.mendez@alumnos.uach.cl>      |     9 | 2021-01-18 12:40:00 |
+| Ulloa Vera, Carla Andrea              | <carla.ulloa@alumnos.uach.cl>            |     9 | 2021-01-18 12:40:00 |
+| Castro Maldonado, Sebastián Ignacio   | <sebastian.castro@alumnos.uach.cl>       |    10 | 2021-01-18 13:00:00 |
+| Donoso Venegas, Diego Esteban         | <diego.donoso01@alumnos.uach.cl>         |    10 | 2021-01-18 13:00:00 |
+| Inzunza Riquelme, Danko Arturo        | <danko.inzunza@alumnos.uach.cl>          |    10 | 2021-01-18 13:00:00 |
+
+Tabla 3.1: Grupos de trabajo
+
+# 4 Material extra disponible
 
   - Si quieren generar una presentación de forma reproducible (no es
     obligatorio), pueden ver la siguiente [guía
@@ -78,7 +119,7 @@ video
   - Otros tutoriales espaciales
     [interesantes](https://youtu.be/dQw4w9WgXcQ)
 
-# 3 Referencias
+# 5 Referencias
 
 <div id="refs" class="references">
 
