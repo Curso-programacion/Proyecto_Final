@@ -1,0 +1,50 @@
+---
+title: "Proyecto final"
+output:
+  bookdown::github_document2:
+    fig_caption: true
+    toc: false
+bibliography: Biblio.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message =  FALSE, warning = FALSE)
+library(tidyverse)
+library(sf)
+library(raster)
+
+BestNumbers <- function(x, Digits = 2, BigSep = ",", Pre = NULL){
+  x <- prettyNum(round(x, digits = Digits), big.mark = BigSep)
+  if(!is.null(Pre)){
+    x <- paste(Pre, x)
+  }
+  return(x)
+}
+
+AndList <-  function(x, Sep = "and"){
+  x <- sort(x)
+  First <- paste(x[-length(x)], collapse = ", ")
+  Second <- x[length(x)]
+  return(paste(First, Second, sep = str_pad(Sep, str_count(Sep) + 2, "both")))
+}
+
+Chl <- getData("GADM", country = "CHL", level = 1) %>% 
+  st_as_sf() %>% 
+  dplyr::filter(NAME_1 %in% c("Los Ríos", "Los Lagos", "Araucanía")) %>% 
+  st_make_valid()
+
+Diversidad <- read_sf("Diversidad.shp")
+```
+
+# Ojetivo
+
+El objetivo del trabajo final es el realizar una presentación grupal, donde usando generen el mejor modelo posible para explicar los patrones de diversidad encontrados en el sur de Chile, en las regiones de `r AndList(Chl$NAME_1, Sep = "y")` (ver figura \@ref(fig:Diversidad))
+
+```{r Diversidad, fig.cap= "Número de especies de mamíferos en el sur de Chile de acuerdo a la distribución de especies determinada por la IUCN"}
+ggplot() + 
+  geom_sf(data = Chl) + 
+  geom_sf(data = Diversidad, aes(color = DvrsddA)) +
+  scale_color_viridis_c() +
+  theme_bw()
+```
+
