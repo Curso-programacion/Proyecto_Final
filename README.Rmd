@@ -34,17 +34,25 @@ Chl <- getData("GADM", country = "CHL", level = 1) %>%
   st_make_valid()
 
 Diversidad <- read_sf("Diversidad.shp")
+
+Stack <- read_rds("Stack.rds")
 ```
 
 # Ojetivo
 
-El objetivo del trabajo final es el realizar una presentación grupal, donde usando generen el mejor modelo posible para explicar los patrones de diversidad encontrados en el sur de Chile, en las regiones de `r AndList(Chl$NAME_1, Sep = "y")` (ver figura \@ref(fig:Diversidad))
+El objetivo del trabajo final es el realizar una presentación grupal, donde usando generen el mejor modelo posible para explicar los patrones de Riqueza de especies de aves encontrados en el sur de Chile, en las regiones de `r AndList(Chl$NAME_1, Sep = "y")` (ver figura \@ref(fig:Diversidad)). Los datos del número de especies en cada uno de los sitos puede ser encontrado en el archivo `Diversidad.shp`. Para esto y como variables disponibles pueden usar la base de datos espaciales `Stack.rds`, los cuales pueden ser visualizados en la figura \@ref(fig:Variables))
 
-```{r Diversidad, fig.cap= "Número de especies de mamíferos en el sur de Chile de acuerdo a la distribución de especies determinada por la IUCN"}
+```{r Diversidad, fig.cap= "Número de especies de aves en el sur de Chile de acuerdo a la distribución de especies determinada por la IUCN"}
 ggplot() + 
   geom_sf(data = Chl) + 
   geom_sf(data = Diversidad, aes(color = DvrsddA)) +
-  scale_color_viridis_c() +
+  scale_color_viridis_c(name = "Riqueza de especies") +
   theme_bw()
+```
+
+
+
+```{r Variables, fig.cap="Variables explicativas"}
+plot(Stack)
 ```
 
