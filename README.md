@@ -55,10 +55,11 @@ precipitación
 ## 2.1 Requisitos mínimos de presentación
 
   - Presentación de 10 minutos vía Zoom
-  - Probar distintos modelos para
+  - Probar distintos modelos y seleccionar en base a lo visto en clases
   - Entre los resultados entregados deben tener un raster para el área
     realizados en base a una
     [interpolación](https://youtu.be/AjWvI9P6jos)
+  - Intenten modelos que no solo incluyan relaciones lineales
 
 ## 2.2 Material extra disponible
 
@@ -72,6 +73,8 @@ video
 
 </iframe>
 
+  - Pueden encontrar más datos espaciales en el siguiente
+    [link](https://gisgeography.com/best-free-gis-data-sources-raster-vector/)
   - Otros tutoriales espaciales
     [interesantes](https://youtu.be/dQw4w9WgXcQ)
 
