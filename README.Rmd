@@ -103,6 +103,7 @@ knitr::kable(lista, caption = "Grupos de trabajo")
 * Si quieren generar una presentación de forma reproducible (no es obligatorio), pueden ver la siguiente [guía online](https://bookdown.org/yihui/rmarkdown/presentations.html) y/o ver el siguiente video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2fg_X0d6SRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 * Pueden encontrar más datos espaciales en el siguiente [link](https://gisgeography.com/best-free-gis-data-sources-raster-vector/)
 * Otros tutoriales espaciales [interesantes](https://youtu.be/dQw4w9WgXcQ) 
 
