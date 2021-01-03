@@ -40,7 +40,7 @@ Stack <- read_rds("Stack.rds")
 
 # Ojetivo
 
-El objetivo del trabajo final es el realizar una presentación grupal, donde usando generen el mejor modelo posible para explicar los patrones de Riqueza de especies de aves encontrados en el sur de Chile, en las regiones de `r AndList(Chl$NAME_1, Sep = "y")` (ver figura \@ref(fig:Diversidad)). Los datos del número de especies en cada uno de los sitos puede ser encontrado en el archivo `Diversidad.shp`. Para esto y como variables disponibles pueden usar la base de datos espaciales `Stack.rds`, los cuales pueden ser visualizados en la figura \@ref(fig:Variables))
+El objetivo del trabajo final es el realizar una presentación grupal, donde usando generen el mejor modelo posible para explicar los patrones de Riqueza de especies de aves encontrados en el sur de Chile, en las regiones de `r AndList(Chl$NAME_1, Sep = "y")` (ver figura \@ref(fig:Diversidad)). Los datos del número de especies en cada uno de los sitos puede ser encontrado en el archivo `Diversidad.shp`. Para esto y como variables disponibles pueden usar la base de datos espaciales `Stack.rds`, los cuales pueden ser visualizados en la figura \@ref(fig:Variables)). Las variables en este stack son el indice de modificación humana [@kennedy2019managing] y por otro lado la variables bioclimáticas temperatura media anual, el rango térmico diario, la precipitación anual y la estacionalidad de la precipitación descargadas desde worlclim usando el paquete raster en R [@Hijman2020]. Si bién esas son las variables entregadas, no es necesario que se restrinjan a solo utilizar estas y pueden agregar otras que crean importantes.
 
 ```{r Diversidad, fig.cap= "Número de especies de aves en el sur de Chile de acuerdo a la distribución de especies determinada por la IUCN"}
 ggplot() + 
@@ -52,7 +52,24 @@ ggplot() +
 
 
 
-```{r Variables, fig.cap="Variables explicativas"}
+```{r Variables, fig.cap="Mapa con las variables explicativas, las cuales consideran el indice de modificación humana, temperatura media anual, el rango térmico diario, la precipitación anual y la estacionalidad de la precipitación"}
 plot(Stack)
 ```
 
+# Instrucciones
+
+## Requisitos mínimos de presentación
+
+* Presentación de 10 minutos vía Zoom
+* Probar distintos modelos para 
+* Entre los resultados entregados deben tener un raster para el área realizados en base a una [interpolación](https://youtu.be/AjWvI9P6jos)
+
+## Material extra disponible
+
+* Si quieren generar una presentación de forma reproducible (no es obligatorio), pueden ver la siguiente [guía online](https://bookdown.org/yihui/rmarkdown/presentations.html) y/o ver el siguiente video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2fg_X0d6SRA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+* Otros tutoriales espaciales [interesantes](https://youtu.be/dQw4w9WgXcQ) 
+
+# Referencias
