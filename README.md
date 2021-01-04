@@ -69,36 +69,30 @@ presentaciones
 
 | Nombre                                | email                                    | Grupo | Presentacion        |
 | :------------------------------------ | :--------------------------------------- | ----: | :------------------ |
-| Palma Bugueño, Bastián Lucas          | <bastian.palma02@alumnos.uach.cl>        |     1 | 2021-01-18 10:00:00 |
 | Pereda Quilapán, Marcelo Adolfo       | <marcelo.pereda@alumnos.uach.cl>         |     1 | 2021-01-18 10:00:00 |
-| Zenteno Montuschi, Fernanda Javiera   | <fernanda.zenteno@alumnos.uach.cl>       |     1 | 2021-01-18 10:00:00 |
-| Arzola Cisterna, Scarlett María       | <scarlett.arzola@alumnos.uach.cl>        |     2 | 2021-01-18 10:20:00 |
-| Luco Molina, Carlos Alberto           | <carlos.luco@alumnos.uach.cl>            |     2 | 2021-01-18 10:20:00 |
-| Segovia Oyarzo, Luis José             | <luis.segovia@alumnos.uach.cl>           |     2 | 2021-01-18 10:20:00 |
-| Aguilar Muñoz, Gabriela Fernanda      | <gabriela.aguilar02@alumnos.uach.cl>     |     3 | 2021-01-18 10:40:00 |
-| Miranda López, Camilo Andrés          | <camilo.miranda@alumnos.uach.cl>         |     3 | 2021-01-18 10:40:00 |
-| Vergara Estay, Tomás Alberto          | <tomas.vergara@alumnos.uach.cl>          |     3 | 2021-01-18 10:40:00 |
+| Ravanal Padilla, Rodrigo Andres       | <rodrigo.ravanal@alumnos.uach.cl>        |     1 | 2021-01-18 10:00:00 |
+| Segovia Oyarzo, Luis José             | <luis.segovia@alumnos.uach.cl>           |     1 | 2021-01-18 10:00:00 |
+| Calderón Fati, José Julio Haumaru     | <jose.calderon@alumnos.uach.cl>          |     2 | 2021-01-18 10:20:00 |
+| Escalona Álvarez, Pablo Andrés        | <pablo.escalona@alumnos.uach.cl>         |     2 | 2021-01-18 10:20:00 |
+| Neira Becerra, Valentina Constanza    | <valentina.neira@alumnos.uach.cl>        |     2 | 2021-01-18 10:20:00 |
+| Arzola Cisterna, Scarlett María       | <scarlett.arzola@alumnos.uach.cl>        |     3 | 2021-01-18 10:40:00 |
+| Luco Molina, Carlos Alberto           | <carlos.luco@alumnos.uach.cl>            |     3 | 2021-01-18 10:40:00 |
+| Ulloa Vera, Carla Andrea              | <carla.ulloa@alumnos.uach.cl>            |     3 | 2021-01-18 10:40:00 |
 | Cocio González, Fernanda Jesús        | <fernanda.cocio@alumnos.uach.cl>         |     4 | 2021-01-18 11:00:00 |
-| Pizarro Barrera, Ricardo Antonio      | <ricardo.pizarro@alumnos.uach.cl>        |     4 | 2021-01-18 11:00:00 |
-| Riveros Ávila, Fernando Alberto       | <fernando.riveros@alumnos.uach.cl>       |     4 | 2021-01-18 11:00:00 |
-| Calderón Fati, José Julio Haumaru     | <jose.calderon@alumnos.uach.cl>          |     5 | 2021-01-18 11:20:00 |
-| Soto Rupayan, Benjamin Ignacio        | <benjamin.soto@alumnos.uach.cl>          |     5 | 2021-01-18 11:20:00 |
-| Valenzuela Ampuero, Sebastián Eduardo | <sebastian.valenzuela04@alumnos.uach.cl> |     5 | 2021-01-18 11:20:00 |
+| Donoso Venegas, Diego Esteban         | <diego.donoso01@alumnos.uach.cl>         |     4 | 2021-01-18 11:00:00 |
+| Gutierrez Aguila, Angela Mariluz      | <angela.gutierrez@alumnos.uach.cl>       |     4 | 2021-01-18 11:00:00 |
+| Castro Maldonado, Sebastián Ignacio   | <sebastian.castro@alumnos.uach.cl>       |     5 | 2021-01-18 11:20:00 |
+| Inzunza Riquelme, Danko Arturo        | <danko.inzunza@alumnos.uach.cl>          |     5 | 2021-01-18 11:20:00 |
+| Pizarro Barrera, Ricardo Antonio      | <ricardo.pizarro@alumnos.uach.cl>        |     5 | 2021-01-18 11:20:00 |
 | Bañares Mansilla, Angie Javiera       | <angie.banares@alumnos.uach.cl>          |     6 | 2021-01-18 11:40:00 |
 | Ramírez Águila, Kamila Andrea         | <kamila.ramirez@alumnos.uach.cl>         |     6 | 2021-01-18 11:40:00 |
 | Rodríguez Oyarzo, María Teresa        | <maria.rodriguez@alumnos.uach.cl>        |     6 | 2021-01-18 11:40:00 |
 | Alvarado Subiabre, Guillermo Ignacio  | <guillermo.alvarado@alumnos.uach.cl>     |     7 | 2021-01-18 12:00:00 |
 | Lara Riquelme, Bárbara Escarlen       | <barbara.lara@alumnos.uach.cl>           |     7 | 2021-01-18 12:00:00 |
 | Luco Molina, Macarena Alejandra       | <macarena.luco@alumnos.uach.cl>          |     7 | 2021-01-18 12:00:00 |
-| Gutierrez Aguila, Angela Mariluz      | <angela.gutierrez@alumnos.uach.cl>       |     8 | 2021-01-18 12:20:00 |
-| Neira Becerra, Valentina Constanza    | <valentina.neira@alumnos.uach.cl>        |     8 | 2021-01-18 12:20:00 |
-| Ravanal Padilla, Rodrigo Andres       | <rodrigo.ravanal@alumnos.uach.cl>        |     8 | 2021-01-18 12:20:00 |
-| González Sáez, Florencia Ignacia      | <florencia.gonzalez01@alumnos.uach.cl>   |     9 | 2021-01-18 12:40:00 |
-| Mendez Rivas, Christofer Antonio      | <christofer.mendez@alumnos.uach.cl>      |     9 | 2021-01-18 12:40:00 |
-| Ulloa Vera, Carla Andrea              | <carla.ulloa@alumnos.uach.cl>            |     9 | 2021-01-18 12:40:00 |
-| Castro Maldonado, Sebastián Ignacio   | <sebastian.castro@alumnos.uach.cl>       |    10 | 2021-01-18 13:00:00 |
-| Donoso Venegas, Diego Esteban         | <diego.donoso01@alumnos.uach.cl>         |    10 | 2021-01-18 13:00:00 |
-| Inzunza Riquelme, Danko Arturo        | <danko.inzunza@alumnos.uach.cl>          |    10 | 2021-01-18 13:00:00 |
+| Cubillos Inostroza, Diego Exequiel    | <diego.cubillos@alumnos.uach.cl>         |     8 | 2021-01-18 12:20:00 |
+| Gatica Fuentealba, Nicolas Ignacio    | <nicolas.gatica@alumnos.uach.cl>         |     8 | 2021-01-18 12:20:00 |
+| Valenzuela Ampuero, Sebastián Eduardo | <sebastian.valenzuela04@alumnos.uach.cl> |     8 | 2021-01-18 12:20:00 |
 
 Tabla 3.1: Grupos de trabajo
 

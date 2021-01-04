@@ -77,21 +77,21 @@ lista <- read_csv("lista.csv", col_names = FALSE,
   mutate(X2 = str_to_title(X2), X3 = str_to_title(X3)) %>% 
   rename(email = X4) %>% 
   unite(col = "Nombre", starts_with("X"), sep = ", ") %>% 
-  mutate(Grupo = case_when(Nombre %in% c("Alvarado Subiabre, Guillermo Ignacio","Lara Riquelme, Bárbara Escarlen", "Luco Molina, Macarena Alejandra") ~ sample(1:10, size = 1),
-                   Nombre %in% c("Rodríguez Oyarzo, María Teresa","Ramírez Águila, Kamila Andrea","Bañares Mansilla, Angie Javiera") ~ sample(1:10, size = 1)))
+  mutate(Grupo = case_when(Nombre %in% c("Alvarado Subiabre, Guillermo Ignacio","Lara Riquelme, Bárbara Escarlen", "Luco Molina, Macarena Alejandra") ~ sample(1:8, size = 1),
+                   Nombre %in% c("Rodríguez Oyarzo, María Teresa","Ramírez Águila, Kamila Andrea","Bañares Mansilla, Angie Javiera") ~ sample(1:8, size = 1)))
 
 Asignados <- lista %>% dplyr::filter(!is.na(Grupo))
 
 NoAsignados <- lista %>% dplyr::filter(is.na(Grupo))
 
-Grupos <- rep(1:10, each = 3)
+Grupos <- rep(1:8, each = 3)
 
 Grupos <- Grupos[!(Grupos %in% unique(Asignados$Grupo))]
 set.seed(2021)
 
-NoAsignados$Grupo <- sample(Grupos, size = 24, replace = F)
+NoAsignados$Grupo <- sample(Grupos, size = 18, replace = F)
 
-DF <- data.frame(Grupo = 1:10, Presentacion = seq(ISOdate(2021,1,18, 10, 0, tz = "America/Santiago"), by = "20 min", length.out = 10))
+DF <- data.frame(Grupo = 1:8, Presentacion = seq(ISOdate(2021,1,18, 10, 0, tz = "America/Santiago"), by = "20 min", length.out = 8))
 
 lista <- bind_rows(Asignados, NoAsignados) %>% arrange(Grupo) %>% full_join(DF)
 knitr::kable(lista, caption = "Grupos de trabajo")
