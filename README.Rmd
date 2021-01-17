@@ -91,7 +91,7 @@ set.seed(2021)
 
 NoAsignados$Grupo <- sample(Grupos, size = 18, replace = F)
 
-DF <- data.frame(Grupo = 1:8, Presentacion = seq(ISOdate(2021,1,18, 10, 0, tz = "America/Santiago"), by = "20 min", length.out = 8))
+DF <- data.frame(Grupo = 1:8, Presentacion = seq(ISOdate(2021,1,19, 16, 30, tz = "America/Santiago"), by = "20 min", length.out = 8))
 
 lista <- bind_rows(Asignados, NoAsignados) %>% arrange(Grupo) %>% full_join(DF)
 knitr::kable(lista, caption = "Grupos de trabajo")
